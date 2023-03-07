@@ -1,5 +1,6 @@
 import CookieComponent from './hooks/example/CookieComponent';
 import CopyToClipboardComponent from './hooks/example/CopyToClipboardComponent';
+import DebounceComponent from './hooks/example/DebounceComponent';
 import EventListenerComponent from './hooks/example/EventListenerComponent';
 import LocalComponent from './hooks/example/LocalComponent';
 import PreviousComponent from './hooks/example/PreviousComponent';
@@ -17,7 +18,8 @@ function App() {
   // return <StateWithValidationComponent />
   // return <CopyToClipboardComponent />
   // return <CookieComponent />
-  return <EventListenerComponent />
+  // return <EventListenerComponent />
+  return <DebounceComponent />
 }
 
 export default App;
